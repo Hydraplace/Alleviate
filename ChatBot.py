@@ -223,7 +223,7 @@ import nltk
 from nltk.corpus import stopwords
 stop = stopwords.words('english')
 
-string = "My name is Piyush and I lives in Delhi. My phone no. 9992014705. My email is piyushbamel1@gmail.com"
+string = "My name is Piyush and I lives in Delhi. My phone no. XXXXXXXXXX, My email is piyush*********@gmail.com"
 
 def extract_phone_numbers(string):
     r = re.compile(r'(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})')
